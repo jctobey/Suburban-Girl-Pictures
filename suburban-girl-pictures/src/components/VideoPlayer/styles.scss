@@ -1,0 +1,23 @@
+.videoplayer {
+  z-index: 1;
+  &__buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    z-index: 10;
+    gap: 40px;
+    position: absolute;
+    top: 90%;
+  }
+  &__button {
+    z-index: 9;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border: none;
+    &:hover {
+      color: rgba(158, 118, 60, 1);
+      cursor: pointer;
+    }
+    font-size: xx-large;
+  }
+}
